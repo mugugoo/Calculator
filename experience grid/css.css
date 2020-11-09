@@ -1,0 +1,15 @@
+.calc-grid-head {
+    display:grid;
+border: solid 1px black;
+grid-template-columns: 200 px 50 px;
+
+grid-template-columns: repeat(4,20px);
+grid-template-rows: repeat(4, 40px);
+grid-template-rows: 200px;
+background-color: red;
+}
+
+.calc-grid-head > * {
+background-color:blue;
+border: solid 1px black;
+}

@@ -1,0 +1,48 @@
+/* .unit-calc-grid {
+    display:grid;
+border: solid 1px #000000;
+grid-template-columns: 7fr 1fr;
+grid-template-rows: 5fr 1fr 3fr;
+background-color: red;
+grid-template-areas: 
+"screen screen-button"
+"symbol symbol"
+"numbers symbols-2";
+gap:10px;
+}
+
+.calc-grid-head >  {
+background-color:blue;
+border: solid 1px black;
+}
+
+.screen {
+grid-area: screen;
+background-color: pink;
+  }
+
+.symbol {
+grid-area: symbol;
+  }
+
+.numbers{
+grid-area: numbers;
+} */
+
+textarea {
+  display:block;
+    background-color:transparent;
+  }
+  .container {
+    display:block;
+    background-color:blue;
+  }
+  .container >div{
+    vertical-align:middle;
+      display:inline-block;
+    background-color:lightgray;
+  }
+  
+  button {
+     display: block;
+  }
